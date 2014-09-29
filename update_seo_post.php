@@ -1,5 +1,5 @@
 <?php
-
+//have to put this code in functions.php file
 function modified_seo_date(){
     $u_time = get_the_time('U');
     $u_modified_time = get_the_modified_time('U');
@@ -17,5 +17,4 @@ else {
     echo "</time>"; 
     }
 }
-
 ?>
