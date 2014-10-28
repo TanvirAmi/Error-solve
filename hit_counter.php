@@ -29,3 +29,4 @@ function setHits($postID) {
  
  //And the output area
  echo getHits(get_the_ID());
+ ?>
