@@ -1,4 +1,4 @@
-<?php
+
 // Custom shortcode for related post
 
 function related_posts_shortcode($attributes) {
