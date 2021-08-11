@@ -2,11 +2,6 @@
 
 		global $post;
 
-		// Bail if user don't want to display the related posts via theme settings.
-		if ( of_get_option( 'daily_related_posts', 'on' ) != 'on' ) {
-			return;
-		}
-
 		// Get the taxonomy terms of the current page for the specified taxonomy.
 		$terms = wp_get_post_terms( $post->ID, 'category', array( 'fields' => 'ids' ) );
 
